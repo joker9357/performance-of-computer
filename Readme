@@ -1,0 +1,27 @@
+PCN Project 1
+-----------------------------------
+
+Description: I implement this project based on the code provided by Dr. Jason Joe.
+Only modified the logic part, added and deleted several functions and variables.
+All of the remaining is the same as what Dr. Jason Joe gave us.
+For running, please type in each value accordingly with an enter.
+
+The plot is at the same folder level as a MS Excel document.
+
+Platform/compiler: UNIX, g++
+
+Files:
+
+event.cpp - Functions for inserting and removing Events from EventLists 
+event.h - Data structures for Events and EventLists
+main.cpp - Main program for simulation
+Makefile - Makefile for simulation
+output - output of the simulation
+rv.cpp - Functions which return uniform and exponential random variables
+rv.h - Header file for rv.cpp
+
+Compiling instructions:
+Edit Makefile to point to the c++ compiler on the local machine.
+To compile, place all files within a single directory and type "make".
+To run, type "sim".
+
